@@ -1,7 +1,7 @@
 #!/bin/bash
-git add .
+git add -A
 git commit -a -m "auto-update `date +%F-%T`"
-git push
+git
 ###########################
 echo Please Press Enter!
 read
